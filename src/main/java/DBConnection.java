@@ -5,9 +5,9 @@ public class DBConnection {
 
     private static Connection connection;
 
-    private static String dbName = "learn";
+    private static String dbName = "votersdb";
     private static String dbUser = "root";
-    private static String dbPass = "testtest";
+    private static String dbPass = "password";
 
     private static StringBuilder insertQuery = new StringBuilder();
 
